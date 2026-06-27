@@ -1,0 +1,97 @@
+RELEASE NOTES — drbschakravarthy.com
+Release 0.2
+=====================================
+
+OVERVIEW
+--------
+This release evolves the existing one-page clinic site into the beginning
+of the "Dr. B. S. Chakravarthy Knowledge Platform," while keeping the
+original Netlify static-deploy workflow (HTML + CSS + JS only, no backend,
+no build step, no paid services).
+
+The previous design system (soft blue/teal/white palette, card-based
+layout, sticky header) was preserved and extended rather than rebuilt
+from scratch.
+
+WHAT'S NEW
+----------
+1. Homepage redesign
+   - New hero copy: name, title, four-word role line, mission tagline,
+     and short intro paragraph, exactly as specified.
+   - Hero actions: Book Appointment, WhatsApp, Read Our Vision.
+   - All original sections kept: Clinic, Services, Professional Profile,
+     Contact.
+
+2. Navigation
+   - Full link set: Home, Clinic, Explore, Knowledge Platform,
+     Our Vision, Contact.
+   - New mobile hamburger menu (the old nav simply disappeared on small
+     screens in v1; it now opens/closes properly with a toggle button).
+   - Active-page underline using a gold accent rule.
+
+3. Three audience entry cards (homepage, "Who are you here for?")
+   - I'm a Parent -> parent-centre.html
+   - I'm a Student / Healthcare Professional -> student-academy.html
+   - Research, AI & Ideas -> research-centre.html
+
+4. Appointment CTAs
+   - Call, WhatsApp Appointment, and Get Directions buttons appear in
+     the hero, the Clinic section, and the Contact section.
+
+5. New page: our-vision.html
+   - Full Charter reproduced exactly as provided, with section dividers,
+     a styled values list, and the closing signature.
+   - Added to the main navigation as "Our Vision."
+
+6. Footer (every page)
+   - Clinic name, doctor name, domain, phone, WhatsApp, full address,
+     and the motto "Knowledge in Service of Humanity."
+
+7. Placeholder pages for the future Knowledge Platform
+   - parent-centre.html, student-academy.html, research-centre.html,
+     paedcare-digital.html, ai-laboratory.html, science-philosophy.html
+   - Each has a real (non-broken) page: a clear "what's coming" list,
+     a working call/WhatsApp box, and a link back to Our Vision — so
+     nothing reads as an empty or broken link while content is still
+     being built out.
+   - The homepage "Beyond the clinic" grid links to all six.
+
+8. Mobile + bug fixes
+   - Fixed the floating WhatsApp button overlapping the footer text and
+     bottom CTA buttons (confirmed in the original file: the button sat
+     directly on top of the footer's domain text and could collide with
+     "Send WhatsApp"/"Call Clinic" buttons in the Contact section).
+     The footer now reserves bottom space sized to clear the button, on
+     every page.
+   - Mobile nav menu rebuilt: it now opens, closes, and closes again
+     automatically after a link is tapped.
+   - General mobile spacing, type sizing, and button wrapping reviewed
+     and tightened across all pages.
+
+FILES
+-----
+index.html              Homepage
+our-vision.html          Charter / Our Vision page
+parent-centre.html       Placeholder — Parent Centre
+student-academy.html     Placeholder — Student Academy
+research-centre.html     Placeholder — Research Centre
+paedcare-digital.html    Placeholder — PaedCare Digital
+ai-laboratory.html       Placeholder — AI Laboratory
+science-philosophy.html  Placeholder — Science & Philosophy
+style.css                Shared stylesheet for all pages
+script.js                Shared script (year stamp, mobile nav toggle)
+
+DEPLOYMENT
+----------
+Unzip and upload the contents to Netlify exactly as before (drag-and-drop
+or connect to the existing site). No build command and no environment
+variables are required. The site opens locally by opening index.html
+directly in a browser — no server needed for local preview.
+
+NOT CHANGED
+-----------
+- Clinic name, address, phone, WhatsApp number, and timings.
+- Hosting workflow (static Netlify deploy, GoDaddy domain).
+- No external libraries or fonts were added; the site still uses only
+  the system font stack and a small amount of emoji for icons, so there
+  are no new third-party dependencies or privacy/tracking concerns.
