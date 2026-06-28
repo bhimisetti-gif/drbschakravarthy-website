@@ -1,27 +1,21 @@
-Release 0.6 — Publications & Media Centre
+Release 0.6.1 — Homepage Links Fix
 
-Built from Release 0.5.2 master package.
-
-Added:
-- publications.html
-- media-centre.html
+Built from Release 0.6.
 
 Updated:
-- style.css
+- index.html
+
+Fixes:
+- Added Publications link to homepage navigation
+- Added Media Centre link to homepage navigation
+- Added Publications card to homepage journey grid
+- Added Media Centre card to homepage journey grid
 
 Preserved:
-- index.html
-- about.html
-- parent-centre.html
-- student-academy.html
-- research-centre.html
-- paedcare-digital.html
-- ai-laboratory.html
-- human-journey.html
-- our-vision.html
+- publications.html
+- media-centre.html
+- style.css
 - script.js
-- doctor photo
-- WhatsApp / Call / Directions
-- mobile action bar
+- all other existing website files
 
 Upload all files from this ZIP to the GitHub repository root and commit.
