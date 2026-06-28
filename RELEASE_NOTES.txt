@@ -1,21 +1,27 @@
-Version 5.2 — Parent, Student & Research Upgrade
+Release 0.6 — Publications & Media Centre
 
-Built from the uploaded v4 master ZIP, so the original script.js and existing website structure are preserved.
+Built from Release 0.5.2 master package.
 
-Merged Claude-prepared updates:
+Added:
+- publications.html
+- media-centre.html
+
+Updated:
+- style.css
+
+Preserved:
+- index.html
+- about.html
 - parent-centre.html
 - student-academy.html
 - research-centre.html
-- style.css
-
-Includes:
-- Parent Education Library
-- Danger Signs section
-- Student Academy learning categories
-- Research Centre projects and publications placeholder
-- Existing PaedCare Digital Hub preserved
-- Existing script.js preserved
-- Existing doctor photo preserved
-- Existing WhatsApp / Call / Directions preserved
+- paedcare-digital.html
+- ai-laboratory.html
+- human-journey.html
+- our-vision.html
+- script.js
+- doctor photo
+- WhatsApp / Call / Directions
+- mobile action bar
 
 Upload all files from this ZIP to the GitHub repository root and commit.
