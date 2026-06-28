@@ -1,14 +1,21 @@
-Version 4 — PaedCare Digital Hub
+Version 5.2 — Parent, Student & Research Upgrade
 
-Merged Claude-prepared files:
-- paedcare-digital.html
+Built from the uploaded v4 master ZIP, so the original script.js and existing website structure are preserved.
+
+Merged Claude-prepared updates:
+- parent-centre.html
+- student-academy.html
+- research-centre.html
 - style.css
 
 Includes:
-- Categorized PaedCare KGH app suite
-- Live app links
-- Professional app cards
-- Responsive mobile layout
-- Existing homepage, contact, mailbox, visitor counter, WhatsApp and sticky action bar preserved
+- Parent Education Library
+- Danger Signs section
+- Student Academy learning categories
+- Research Centre projects and publications placeholder
+- Existing PaedCare Digital Hub preserved
+- Existing script.js preserved
+- Existing doctor photo preserved
+- Existing WhatsApp / Call / Directions preserved
 
-Upload all files from this ZIP to GitHub repository root and commit.
+Upload all files from this ZIP to the GitHub repository root and commit.
