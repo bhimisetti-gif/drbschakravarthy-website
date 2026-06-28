@@ -1,1 +1,8 @@
-Milestone 1 / Release 0.4 corrected photo package. Upload all files to repository root and commit.
+Version 1.0 Doctor First
+
+Doctor-first homepage.
+High-resolution portrait display without bad cropping.
+Prominent Call, WhatsApp and Directions.
+Professional identity before clinic identity.
+Clinic retained as one-tap-access section.
+Mobile sticky action bar preserved.
