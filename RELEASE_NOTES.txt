@@ -1,11 +1,13 @@
-Milestone 3 / Version 2.0 Homepage
+Version 3
 
-Major doctor-first homepage redesign:
-- Professional opening identity
-- High-resolution portrait display
-- Three primary visitor actions
-- Choose Your Journey section
-- Clinic retained but moved into broader professional context
-- Stronger platform pillars
-- Improved responsive design
-- Sticky mobile Call / WhatsApp / Directions preserved
+Added:
+- Visitor count card
+- Mailbox/contact form using mailto
+- Chat section
+- WhatsApp quick chat
+- Appointment WhatsApp template preserved
+- Sticky Call / WhatsApp / Directions preserved
+
+Note:
+Visitor count is local-device based for now because GitHub Pages is static.
+A full public visitor analytics service can be connected later.
