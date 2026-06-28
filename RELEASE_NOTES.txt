@@ -1,13 +1,14 @@
-Version 3
+Version 4 — PaedCare Digital Hub
 
-Added:
-- Visitor count card
-- Mailbox/contact form using mailto
-- Chat section
-- WhatsApp quick chat
-- Appointment WhatsApp template preserved
-- Sticky Call / WhatsApp / Directions preserved
+Merged Claude-prepared files:
+- paedcare-digital.html
+- style.css
 
-Note:
-Visitor count is local-device based for now because GitHub Pages is static.
-A full public visitor analytics service can be connected later.
+Includes:
+- Categorized PaedCare KGH app suite
+- Live app links
+- Professional app cards
+- Responsive mobile layout
+- Existing homepage, contact, mailbox, visitor counter, WhatsApp and sticky action bar preserved
+
+Upload all files from this ZIP to GitHub repository root and commit.
