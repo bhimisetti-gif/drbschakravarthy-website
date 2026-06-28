@@ -1,19 +1,20 @@
-Release 0.6.1 — Homepage Links Fix
+Release 0.6.2 — Publications PDF Links Fix
 
-Built from Release 0.6.
+Built from Release 0.6.1.
 
 Updated:
-- index.html
+- publications.html
 
 Fixes:
-- Added Publications link to homepage navigation
-- Added Media Centre link to homepage navigation
-- Added Publications card to homepage journey grid
-- Added Media Centre card to homepage journey grid
+- Replaced "PDF available on request" placeholders for the two JAMP papers
+- Added real View Paper links for:
+  - Pediatric poisoning retrospective analysis
+  - Pulse co-oximetry hemoglobin accuracy study
+- Made both JAMP DOI lines clickable
 
 Preserved:
-- publications.html
-- media-centre.html
+- Homepage links fix
+- Media Centre page
 - style.css
 - script.js
 - all other existing website files
