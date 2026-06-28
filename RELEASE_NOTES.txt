@@ -1,22 +1,31 @@
-Release 0.6.2 — Publications PDF Links Fix
+Release 0.7 — Parent Apps Upgrade
 
-Built from Release 0.6.1.
+Built from Release 0.6.2.
 
 Updated:
-- publications.html
+- parent-centre.html
+- style.css
 
-Fixes:
-- Replaced "PDF available on request" placeholders for the two JAMP papers
-- Added real View Paper links for:
-  - Pediatric poisoning retrospective analysis
-  - Pulse co-oximetry hemoglobin accuracy study
-- Made both JAMP DOI lines clickable
+Adds to Parent Centre:
+- PaedCare KGH Digital Child Health Tools section
+- GrowRight
+- NutriChild Pro
+- VacciTrack
+- SickChildGuide
+- TinySteps
+- TinySteps HP
+- FirstFoods KGH
+- FeedSmart KGH
+- Privacy First / Disclaimer / Our Goal cards
+- Parent + ASHA + ANM + Anganwadi worker positioning
 
 Preserved:
-- Homepage links fix
-- Media Centre page
-- style.css
+- Homepage links to Publications and Media Centre
+- Publications PDF links
+- Media Centre
+- PaedCare Digital Hub
 - script.js
-- all other existing website files
+- doctor photo
+- WhatsApp / Call / Directions
 
 Upload all files from this ZIP to the GitHub repository root and commit.

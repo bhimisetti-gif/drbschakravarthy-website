@@ -711,6 +711,43 @@
   }
 }
 
+/* Parent App Tools — privacy / disclaimer / goal notes */
+.parent-apps-notes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 36px;
+}
+.note-card {
+  background: #fff;
+  border: 1px solid rgba(10,142,160,.14);
+  border-radius: 20px;
+  padding: 20px 22px;
+}
+.note-card h4 {
+  margin: 0 0 8px;
+  color: var(--primary-dark);
+  font-size: 1rem;
+}
+.note-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: .9rem;
+  line-height: 1.55;
+}
+.note-card-warning {
+  background: #fff8ea;
+  border-color: rgba(190,140,10,.22);
+}
+.note-card-warning h4 {
+  color: #9a6b06;
+}
+@media(max-width: 760px) {
+  .parent-apps-notes {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Version 6 — Publications */
 .pub-card {
   background: #fff;
