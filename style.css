@@ -53,6 +53,9 @@ h3{margin:0 0 8px}
 
 .doctor-card,.hero-panel,.info-box,.map-card,article{background:var(--card);border:1px solid rgba(10,142,160,.12);box-shadow:var(--shadow);border-radius:var(--radius);padding:24px}
 .hero-panel{padding:30px}
+.doctor-card{overflow:hidden}
+.doctor-photo{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:20px;box-shadow:0 16px 34px rgba(8,61,74,.18);margin-bottom:14px;background:var(--soft)}
+.photo-caption{margin:0 0 12px;color:var(--primary-dark);font-weight:800;text-align:center}
 .pulse{font-size:3.4rem;width:96px;height:96px;border-radius:28px;background:var(--soft);display:grid;place-items:center;margin-bottom:20px}
 .time{font-size:1.8rem;font-weight:900;margin:6px 0;color:var(--primary-dark)}
 .hero-panel hr{border:none;border-top:1px solid rgba(10,142,160,.16);margin:18px 0}
@@ -144,6 +147,7 @@ footer{padding:48px 0 110px;background:#062a32;color:#d9f5f7}
   .nav-toggle{display:flex}
   .nav-cta .btn span{display:none}
   .hero-grid,.two-col,.contact-grid{grid-template-columns:1fr}
+  .doctor-photo{aspect-ratio:3/4;max-height:560px}
   .cards{grid-template-columns:1fr}
   .cards.compact{grid-template-columns:1fr 1fr}
   .floating-whatsapp{bottom:18px}
@@ -153,6 +157,7 @@ footer{padding:48px 0 110px;background:#062a32;color:#d9f5f7}
   .cards.compact{grid-template-columns:1fr}
   .actions{flex-direction:column}
   .actions .btn{width:100%}
+  .doctor-card{padding:18px}
 }
 @media(prefers-reduced-motion: reduce){
   *{scroll-behavior:auto !important;transition:none !important}
